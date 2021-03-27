@@ -3,15 +3,15 @@
   "version": "2.0.1",
   "description": "A handy function to upload video in chunk on the facebook graph.",
   "license": "MIT",
-  "author": "mrdotb",
+  "author": "@snn-ublack",
   "main": "index.js",
   "scripts": {
-    "fixture": "youtube-dl https://www.youtube.com/watch?v=NrB35qqOyhU -o 'fixture.%(ext)s' --format mp4 --write-thumbnail",
+    "fixture": "",
     "test": ""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MRdotB/facebook-api-video-upload.git"
+    "url": "git+https://github.com/snn-ublack/facebook-api-video-upload.git"
   },
   "keywords": [
     "stream",
@@ -23,9 +23,9 @@
     "video"
   ],
   "bugs": {
-    "url": "https://github.com/MRdotB/facebook-api-video-upload/issues"
+    "url": "https://github.com/snn-ublack/facebook-api-video-upload/issues"
   },
-  "homepage": "https://github.com/MRdotB/facebook-api-video-upload#readme",
+  "homepage": "https://github.com/snn-ublack/facebook-api-video-upload#readme",
   "dependencies": {
     "request-promise": "^3.0.0",
     "stream-to-promise": "^2.1.1",
