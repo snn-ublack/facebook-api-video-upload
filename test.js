@@ -57,7 +57,7 @@ function rmEmptyArgs(args) {
  * @param {object} args
  * @param {string} jsonFileConfig
  */
-async function main(args, jsonFileConfig) {
+async function main(args) {
     var videoId = -1;
     var defaultConfig = {};
     if(args.jsonFileConfig) {
@@ -122,4 +122,4 @@ async function main(args, jsonFileConfig) {
 //   // all keys except token, id, stream are passed to the final request
 // };
 
-main(args=yargs_parser(process.argv.slice(2)), jsonFileConfig="exampleConfig.json");
+main(args=yargs_parser(process.argv.slice(2)));
