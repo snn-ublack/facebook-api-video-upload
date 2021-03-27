@@ -45,6 +45,7 @@ function apiFinish(args, upload_session_id, video_id) {
 
   const options = {
     method: 'POST',
+    proxy: args.proxy || null,
     json: true,
     uri: `${c_URL}/${args.id}/videos`,
     formData: {
@@ -81,6 +82,7 @@ function uploadChunk(args, id, start, chunk) {
   }
   const options = {
     method: 'POST',
+    proxy: args.proxy || null,
     uri: `${c_URL}/${args.id}/videos`,
     formData: formData,
     json: true
